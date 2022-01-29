@@ -22,6 +22,11 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 ------------------------------------------------
 
+#Necesito dar permisos al run2
+chmod u+x run.sh
+
+-----------------------------------------------
+
 	LISTAR IMG-> sudo docker images -a
 	BORRAR IMG-> sudo docker rmi "IMAGEID"
 
