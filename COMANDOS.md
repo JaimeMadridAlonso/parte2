@@ -1,8 +1,4 @@
-nano Dockerfile
-
-git clone https://github.com/CDPS-ETSIT/practica_creativa2.git
-
-----------------------------------------------
+#Instalacion de Docker
 
 sudo apt-get update
 
@@ -26,9 +22,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 ------------------------------------------------
 
-sudo docker build -f Dockerfile -t 48/productpage .
-
 	LISTAR IMG-> sudo docker images -a
 	BORRAR IMG-> sudo docker rmi "IMAGEID"
 
-sudo docker run -p 9080:9080 48/productpage
+	LISTAR CONTENEDORES-> sudo docker ps -a 
+	BORRAR CONTENEDORES-> sudo docker rm "IDCONTENEDOR"
