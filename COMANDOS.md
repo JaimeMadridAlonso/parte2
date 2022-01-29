@@ -26,7 +26,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 chmod u+x run2.sh
 
 #Comando para correrlo 
-./run.sh
+./run2.sh
 
 -----------------------------------------------
 
