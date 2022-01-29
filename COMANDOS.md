@@ -25,6 +25,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 #Necesito dar permisos al run2
 chmod u+x run2.sh
 
+#Comando para correrlo 
+./run.sh
+
 -----------------------------------------------
 
 	LISTAR IMG-> sudo docker images -a
