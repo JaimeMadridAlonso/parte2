@@ -1,8 +1,8 @@
-#Necesito dar permisos al run2
-chmod u+x run2.sh
+#Necesito dar permisos al run
+chmod u+x run.sh
 
 #Comando para correrlo 
-./run2.sh
+./run.sh
 
 -----------------------------------------------
 
