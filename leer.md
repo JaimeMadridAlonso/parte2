@@ -1,4 +1,19 @@
-#Instalacion de Docker
+#Necesito dar permisos al run2
+chmod u+x run2.sh
+
+#Comando para correrlo 
+./run2.sh
+
+-----------------------------------------------
+
+	LISTAR IMG-> sudo docker images -a
+	BORRAR IMG-> sudo docker rmi "IMAGEID"
+
+	LISTAR CONTENEDORES-> sudo docker ps -a 
+	BORRAR CONTENEDORES-> sudo docker rm "IDCONTENEDOR"
+	
+----------------------------------------------
+#Instalacion de Docker en caso de hacerlo en google cloud
 
 sudo apt-get update
 
@@ -21,17 +36,3 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 ------------------------------------------------
-
-#Necesito dar permisos al run2
-chmod u+x run2.sh
-
-#Comando para correrlo 
-./run2.sh
-
------------------------------------------------
-
-	LISTAR IMG-> sudo docker images -a
-	BORRAR IMG-> sudo docker rmi "IMAGEID"
-
-	LISTAR CONTENEDORES-> sudo docker ps -a 
-	BORRAR CONTENEDORES-> sudo docker rm "IDCONTENEDOR"
